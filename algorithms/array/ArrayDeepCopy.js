@@ -3,7 +3,7 @@ function copy(arr1, arr2) {
         arr2[i] = arr1[i];
     }
 }
-    
+
 var nums = [];
 for (var i = 0; i < 100; ++i) {
     nums[i] = i + 1;

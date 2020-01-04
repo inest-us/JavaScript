@@ -14,10 +14,10 @@ function factorial_iter(n) {
     return product;
 }
 
-console.log(factorial_rec(4)) //24
-console.log(factorial_rec(5)) //120
-console.log(factorial_rec(0)) //1
+console.log(factorial_rec(4)); //24
+console.log(factorial_rec(5)); //120
+console.log(factorial_rec(0)); //1
 
-console.log(factorial_iter(4)) //24
-console.log(factorial_iter(5)) //120
-console.log(factorial_iter(0)) //1
+console.log(factorial_iter(4)); //24
+console.log(factorial_iter(5)); //120
+console.log(factorial_iter(0)); //1

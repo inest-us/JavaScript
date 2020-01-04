@@ -14,12 +14,12 @@ function withdraw(amount) {
         this.balance -= amount;
     }
     if (amount > this.balance) {
-        console.log("Insufficient funds");
+        console.log('Insufficient funds');
     }
 }
 
 function toString() {
-    return "Balance: " + this.balance;
+    return 'Balance: ' + this.balance;
 }
 
 var account = new Checking(500);

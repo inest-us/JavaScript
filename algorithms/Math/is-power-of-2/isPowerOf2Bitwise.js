@@ -3,17 +3,17 @@ function isPowerOf2Bitwise(n) {
         //2 ^ 0 is 1, smallest power of 2
         return false;
     }
-    
+
     /*
-    * Powers of two in binary look like this:
-    * 1: 0001
-    * 2: 0010
-    * 4: 0100
-    * 8: 1000
-    *
-    * Note that there is always exactly 1 bit set. 
-    * number & (number - 1) => clear the right most set bit
-    */
+     * Powers of two in binary look like this:
+     * 1: 0001
+     * 2: 0010
+     * 4: 0100
+     * 8: 1000
+     *
+     * Note that there is always exactly 1 bit set.
+     * number & (number - 1) => clear the right most set bit
+     */
     return (n & (n - 1)) === 0;
 }
 
