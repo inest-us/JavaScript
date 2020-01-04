@@ -1,10 +1,9 @@
-var n = 1;  // Variable n holds the value 1
-var m = n;  // Copy by value: variable m holds a distinct value 1
+var n = 1; // Variable n holds the value 1
+var m = n; // Copy by value: variable m holds a distinct value 1
 
 // Here's a function we'll use to illustrate passing by value
-function add_to_total(total, x)
-{
-    total = total + x;  // This line changes only the internal copy of total
+function add_to_total(total, x) {
+    total = total + x; // This line changes only the internal copy of total
 }
 
 // Now call the function, passing the numbers contained in n and m by value.
@@ -19,4 +18,4 @@ add_to_total(n, m);
 // value encoded in the program. We compare it to the value held in variable
 // n. In comparison by value, the bytes of the two numbers are checked to
 // see if they are the same.
-if (n == 1) m = 2;  // n contains the same value as the literal 1; m is now 2
+if (n == 1) m = 2; // n contains the same value as the literal 1; m is now 2

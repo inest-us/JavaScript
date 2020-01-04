@@ -1,5 +1,5 @@
 var fact = 1;
-for(i = 1; i < 10; i++) {
+for (i = 1; i < 10; i++) {
     fact = fact * i;
-    console.log(i + "! = " + fact);
+    console.log(i + '! = ' + fact);
 }

@@ -5,8 +5,8 @@ console.log(now);
 
 var arr = new Array();
 console.log(arr); //[] empty array
- 
-var pattern = new RegExp("\\sjava\\s", "i");
+
+var pattern = new RegExp('\\sjava\\s', 'i');
 
 var point = new Object();
 point.x = 2.3;
@@ -15,6 +15,6 @@ console.log(point);
 
 var point2 = {
     x: 2.3,
-    y:-1.2
+    y: -1.2
 };
 console.log(point2);
