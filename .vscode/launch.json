@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\oojs\\c1\\HashTableImpl.js"
+            "program": "${workspaceFolder}\\algorithms\\array\\ContainsDuplicates.js"
         }
     ]
 }
