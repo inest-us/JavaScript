@@ -3,13 +3,13 @@
     <title>Execution Context Example 2</title>
     <script type="text/javascript">
           
-        var color = "blue";
+        let color = "blue";
         
-        function changeColor(){
-            var anotherColor = "red";
+        function changeColor() {
+            let anotherColor = "red";
         
-            function swapColors(){
-                var tempColor = anotherColor;
+            function swapColors() {
+                let tempColor = anotherColor;
                 anotherColor = color;
                 color = tempColor;
                 
@@ -23,7 +23,7 @@
         changeColor();
 
         //anotherColor and tempColor aren't accessible here, but color is
-        alert("Color is now " + color);
+        console.log("Color is now " + color);
       
     </script>
 

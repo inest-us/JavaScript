@@ -3,10 +3,10 @@
     <title>Execution Context Example 1</title>
     <script type="text/javascript">
           
-        var color = "blue";
+        let color = "blue";
         
         function changeColor(){
-            if (color === "blue"){
+            if (color === "blue") {
                 color = "red";
             } else {
                 color = "blue";
@@ -15,7 +15,7 @@
         
         changeColor();
 
-        alert("Color is now " + color);
+        console.log("Color is now " + color); // red
       
     </script>
 
