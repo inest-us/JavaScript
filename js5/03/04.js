@@ -4,4 +4,10 @@
 // are compared by reference, they will not be equal:
 var s1 = "hello";
 var s2 = "hell" + "o";
-if (s1 == s2) document.write("Strings compared by value");
+if (s1 == s2) {
+    console.log("Strings compared by value");
+}
+
+if (s1 === s2) {
+    console.log("s1 and s2 are has the same value and type");
+} 

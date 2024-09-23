@@ -16,8 +16,7 @@ xmas.getDate();  // Returns 21, not the original value of 25
 // A reference to the array is passed to the function, not a copy of the array.
 // Therefore, the function can change the contents of the array through
 // the reference, and those changes will be visible when the function returns.
-function add_to_totals(totals, x)
-{
+function add_to_totals(totals, x) {
     totals[0] = totals[0] + x;
     totals[1] = totals[1] + x;
     totals[2] = totals[2] + x;

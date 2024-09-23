@@ -4,8 +4,7 @@ var m = n;  // Copy by value: variable m holds a distinct value 1
 
 // Here's a function we'll use to illustrate passing by value
 // As we'll see, the function doesn't work the way we'd like it to
-function add_to_total(total, x)
-{
+function add_to_total(total, x) {
     total = total + x;  // This line changes only the internal copy of total
 }
 
@@ -22,3 +21,5 @@ add_to_total(n, m);
 // n. In comparison by value, the bytes of the two numbers are checked to
 // see if they are the same.
 if (n == 1) m = 2;  // n contains the same value as the literal 1; m is now 2
+console.log(n); // 1
+console.log(m); // 2
